@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+html{
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    color: white;
+
+}
+body{
+    background-color: #f0f0f0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3{
+    margin-top: 20px;
+    font-family: "Big Shoulders Display";
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: .8rem;
+    color: rgb(227, 225, 225);
+}
+img{
+    height: 30px;
+    width: 40px;
+}
+.bottom-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+.bottom-content .top-bottom {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 15em;
+    flex: 1;
+}
+.bottom-content .second-bottom{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 15em;
+    flex: 1;
+
+}
+.bottom-content .third-bottom{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 15em;
+    flex: 1;
+}
+.bottom-content button:hover{
+    background-color: transparent;
+    size: 50px;
+    border: 3px #fff solid;
+    cursor: pointer;
+    color: white;
+}
+.bottom-content button{
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    font-size: 11px; 
+    margin-bottom: 10px;
+    width: max-content;
+    font-family: "Lexend Deca";
+    border: white solid;
+}
+.bottom-content .button-2{
+    color: hsl(184, 100%, 22%);
+}
+.bottom-content .button-3{
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+ @media screen and (width: 375px) {
+    .bottom-content{
+    flex-direction: column;
+    justify-content: center;
+    }
+}
+@media screen and (width: 1440px) {
+    .bottom-content{
+        min-width: 25em;
+    }
+} 
